@@ -1,0 +1,21 @@
+{
+  "name": "IP-Register",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "author": "figarrido",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon lib/index.js --exec babel-node",
+    "build": "babel lib -d dist",
+    "serve": "node dist/"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "nodemon": "^1.12.0"
+  },
+  "dependencies": {
+    "mongoose": "^4.11.10"
+  }
+}
